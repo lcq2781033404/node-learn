@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lcq2781033404/node-learn/issues"
   },
-  "homepage": "https://github.com/lcq2781033404/node-learn#readme"
+  "homepage": "https://github.com/lcq2781033404/node-learn#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
